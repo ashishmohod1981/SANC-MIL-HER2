@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+figures/output/*
+!figures/output/.gitkeep
+figures/assets/*
+!figures/assets/.gitkeep
+data/
+*.zip

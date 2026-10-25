@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "SANC-MIL: exact negative bags for HER2 localisation"
+authors:
+  - family-names: Mohod
+    given-names: Ashish P.
+    orcid: "https://orcid.org/0009-0008-0170-5199"
+    affiliation: "Department of Computer Science and Engineering, MATS University, Raipur, India"
+  - family-names: Yadav
+    given-names: K. P.
+    affiliation: "Department of Computer Science and Engineering, MATS University, Raipur, India"
+  - family-names: Mohod
+    given-names: Bhavana
+    affiliation: "Department of Mathematics, St. Vincent Pallotti College of Engineering and Technology, Nagpur, India"
+license: MIT
+repository-code: "https://github.com/ashishmohod1981/SANC-MIL-HER2"
+date-released: 2026-10-24
