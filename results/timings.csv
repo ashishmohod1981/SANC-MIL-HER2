@@ -1,0 +1,20 @@
+section,seconds,session,ram_gb,peak_gpu_gb,output_gb
+pass 1 featurisation,1937.9,20261017-072301,2.69,3.18,1.55
+"MIL training (variants, leakage, seeds, encoder ablation)",3028.6,20261017-072301,3.92,1.53,1.65
+Grad-CAM baseline,828.9,20261017-072301,4.31,6.44,1.66
+classification evaluation + uncertainty,361.3,20261017-072301,4.33,0.84,1.66
+Grad-CAM baseline,2423.3,20261017-072301,4.34,4.33,1.66
+localisation analysis,13.3,20261017-072301,4.34,0.85,1.66
+pass 1 featurisation,13.7,20261017-130500,1.25,0.01,4.27
+"MIL training (variants, leakage, seeds, encoder ablation)",20.5,20261017-130500,2.13,0.27,4.27
+Grad-CAM baseline,0.5,20261017-130500,2.13,0.26,4.27
+classification evaluation + uncertainty,348.8,20261017-130500,2.15,0.26,4.27
+Grad-CAM baseline,1.6,20261017-130500,2.17,0.26,4.27
+localisation analysis,10.4,20261017-130500,2.18,0.26,4.27
+segmentation students,8763.1,20261017-130500,3.73,8.31,3.97
+segmentation students,1151.1,20261017-130500,3.76,1.12,3.97
+core & cell features,2899.1,20261017-130500,3.81,5.42,3.97
+whole-core test segmentation,987.2,20261017-130500,4.33,6.02,4.24
+clinical consistency,247.6,20261017-130500,4.33,3.65,4.24
+core & cell features,1098.6,20261017-130500,4.33,1.01,4.24
+report,1856.5,20261017-130500,4.34,1.02,4.31
