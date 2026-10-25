@@ -1,0 +1,25 @@
+mode,method,n_pos,n_neg,status_AUROC,AUROC_lo,AUROC_hi,spearman_vs_score,QWK_vs_score
+frozen,SANC-MIL,103.0,240.0,0.8557443365695793,0.8116080097087378,0.894094862459547,0.6868107346500022,
+frozen,SANC without negative constraint,103.0,240.0,0.933252427184466,0.9051365291262137,0.9554621763754045,0.7679001947166583,
+frozen,ABMIL,103.0,240.0,0.9874595469255664,0.9743921925566343,0.9972491909385113,0.8245064497550258,
+frozen,Stain-intensity rule,103.0,240.0,0.9708333333333332,0.9533565938511327,0.984508495145631,0.7804346177473381,
+frozen,Membrane + cell features,103.0,240.0,0.9148462783171522,0.884222289644013,0.9402588996763754,0.7263604290270671,
+frozen,SANC-MIL (expected ordinal score),,,,,,0.827462189426014,0.6556411418214771
+frozen,SANC without negative constraint (expected ordinal score),,,,,,0.8190874374069438,0.6001717844105647
+frozen,"feature: membranous DAB area, ≥moderate (student)",,,,,,0.8152022953340461,
+frozen,"feature: membranous DAB area, ≥strong (student)",,,,,,0.8525896371853826,
+frozen,feature: cells ≥50% membrane-covered (student),,,,,,0.7093629144116056,
+frozen,feature: cells ≥70% membrane-covered (student),,,,,,0.6932306004554761,
+frozen,feature: cells ≥50% covered at ≥moderate DAB (student),,,,,,0.7935963623157666,
+refit,SANC-MIL,103.0,240.0,0.8741100323624595,0.8328408171521036,0.9114906957928802,0.7059260750186864,
+refit,SANC without negative constraint,103.0,240.0,0.9337378640776699,0.9063066343042071,0.9557059061488673,0.7691665262372226,
+refit,ABMIL,103.0,240.0,0.9874595469255664,0.9743921925566343,0.9972491909385113,0.8245064497550258,
+refit,Stain-intensity rule,103.0,240.0,0.9654126213592233,0.9461569579288026,0.9813521440129449,0.7599326635440192,
+refit,Membrane + cell features,103.0,240.0,0.9172734627831716,0.8870509708737864,0.9421632281553397,0.7342224254691467,
+refit,SANC-MIL (expected ordinal score),,,,,,0.8253282226165701,0.5775640214318862
+refit,SANC without negative constraint (expected ordinal score),,,,,,0.8157430605496713,0.49320126851731183
+refit,"feature: membranous DAB area, ≥moderate (student)",,,,,,0.8165905661003333,
+refit,"feature: membranous DAB area, ≥strong (student)",,,,,,0.8526454924639935,
+refit,feature: cells ≥50% membrane-covered (student),,,,,,0.7196065524668303,
+refit,feature: cells ≥70% membrane-covered (student),,,,,,0.7069420441907411,
+refit,feature: cells ≥50% covered at ≥moderate DAB (student),,,,,,0.7963446829993155,
